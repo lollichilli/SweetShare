@@ -20,7 +20,6 @@ const AddBobaForm = ({ onAdd }) => {
             setMessage('Boba added successfully!');
             onAdd(); // Callback to refresh the list
         } catch (error) {
-            console.error("Failed to add boba:", error);
             setMessage('Failed to add boba.');
         }
     };
